@@ -1,0 +1,25 @@
+<?page title="Configuration" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window id="a1" title="User Management" border="normal"
+		width="50%">
+		<!-- <username, password,FirstName,LastName,Email,Tel/> -->
+		New Content Here!
+		<hbox>
+			<textbox value="abc" />
+			<textbox value="bac" />
+		</hbox>
+		<hbox>
+			<textbox value="abc2" />
+			<textbox value="bac2" />
+		</hbox>
+		<doublebox value="abc33" />
+	</window>
+	
+	<window id="a2" title="User Management" border="normal"
+		width="50%">
+		<!-- username, password,FirstName,LastName,Email,Tel -->
+		New Content Here!
+
+	</window>
+
+</zk>

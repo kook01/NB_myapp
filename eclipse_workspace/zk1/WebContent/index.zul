@@ -1,0 +1,21 @@
+<?page title="WebPage_index.zul"?>
+<window title="Registration" border="normal" width="700px"
+	height="200px" viewModel="@id('Regis') @init('tutorial.OkViewModel')"
+	apply="org.zkoss.bind.BindComposer" style="background: grey">
+	<hbox align="center" style="margin-top:20px">
+		<!-- <label id="" value="Username " /> -->
+		Username
+		<textbox id="txtboxuser" value="@save(Regis.username)"
+			width="50" maxlength="50" placeholder="Username" />
+		<label id="" value="Password " />
+		<textbox id="txtpwd" type="password" value="" width="50"
+			maxlength="50" placeholder="Password" />
+		<div><intbox />
+			<button label="OK" onClick="@command('OkResult')" /><!-- alert(txtboxuser.getValue()) -->
+		</div>
+	</hbox>
+	<div id="showResult">
+		<textbox id="txtboxResult" value="@load(Regis.result)"
+			placeholder="result" />
+	</div>
+</window>

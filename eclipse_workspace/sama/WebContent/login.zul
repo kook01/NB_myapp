@@ -1,0 +1,21 @@
+<?page title="Registration" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window title="Registration" border="normal" width="50%">
+		<caption
+			label="Please Login before use this program(กรุณาลงชื่อเข้าใช้งาน)" />
+		<vbox align="center">
+			<div>
+				<textbox id="txtboxusername" value="" type="text"
+					width="200px" maxlength="50" placeholder="Username" />
+			</div>
+			<div>
+				<textbox id="txtboxpassword" value="" type="password"
+					width="200px" maxlength="50" placeholder="Password" />
+			</div>
+			<div>
+				<button id="btnlogin" label="Log in"
+					onClick="alert(txtboxusername.id)" />
+			</div>
+		</vbox>
+	</window>
+</zk>

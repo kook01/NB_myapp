@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 9, 2017 9:10:35 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="pck_bean.User" table="user">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment" />  <!-- assigned, increment -->
+        </id>
+        <property name="userName" type="java.lang.String">
+            <column name="userName" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="password" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="email" />
+        </property>
+        <property name="phone" type="java.lang.String">
+            <column name="phone" />
+        </property>
+        <property name="city" type="java.lang.String">
+            <column name="city" />
+        </property>
+    </class>
+</hibernate-mapping>

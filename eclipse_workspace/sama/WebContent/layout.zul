@@ -1,0 +1,68 @@
+<?page title="newLayout" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<style>
+		.breeze .complex-layout, .breeze .complex-layout .z-south,
+		.breeze .complex-layout .z-west { background: #F7F7F7; }
+		.z-borderlayout { background: #FFFFFF } .complex-layout .z-north
+		{ background: #008BB6; } img.complex-layout-header-img {
+		padding: 0 10px; } .complex-layout-header-label { position:
+		relative; top: -30px; padding-left: 40px; font-size: 24px;
+		color: White; font-weight: bold; } .inner-border, .inner-border
+		.z-north, .inner-border .z-west, .inner-border .z-south,
+		.inner-border .z-east { background: #FFFFFF; } .dl-link {
+		text-decoration: none; cursor: pointer; }
+	</style>
+	<!-- <window title="newLayout" border="normal"></window> -->
+	<borderlayout sclass="complex-layout" height="810px">
+		<north size="90px" border="0" title="Header">
+			Come with me!!
+		</north>
+		<west width="200px" border="normal" flex="true"
+			title="Submenu">
+			Come with you!!
+		</west>
+		<east width="130px" title="Quick Links" flex="true">
+			Come with whom!!
+		</east>
+		<center title="Center">
+			GO to.....!!!
+			<!--	<borderlayout sclass="inner-border">
+				<north border="0" height="4%" margins="2,3,0,0">
+				<label value="HOME" style="font-size:20px;" />
+				</north>
+				<center border="0" margins="0,3,3,3">
+				<panel title="Reference" border="normal"
+				height="100%">
+				<panelchildren>
+				<grid style="border:0;">
+				<rows>
+				<row>
+				<div>
+				<separator
+				orient="vertical" />
+				<toolbarbutton label="Java Doc" />
+				<toolbarbutton
+				label="Java2 Doc2" />
+				</div>
+				</row>
+				<row>
+				<div id="">
+				<separator orient="vertical" />
+				<toolbarbutton
+				label="Project Calendar" />
+				</div>
+				</row>
+				</rows> 
+				</grid>
+				</panelchildren>
+				</panel>
+				</center> 
+				</borderlayout> -->
+		</center>
+		<south size="200px" border="normal" flex="true"
+			title="Footer">
+			Go with who!!
+		</south>
+	</borderlayout>
+
+</zk>
